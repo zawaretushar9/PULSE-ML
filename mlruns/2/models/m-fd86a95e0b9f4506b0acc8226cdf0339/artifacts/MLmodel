@@ -1,0 +1,28 @@
+artifact_path: file:C:/Users/tusha/OneDrive/Desktop/New folder/automl-platform/backend/mlruns/2/models/m-fd86a95e0b9f4506b0acc8226cdf0339/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.2
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.8.0
+    skops_trusted_types:
+    - xgboost.core.Booster
+    - xgboost.sklearn.XGBClassifier
+    - xgboost.sklearn.XGBRegressor
+    - sklearn.ensemble._forest.RandomForestClassifier
+    - sklearn.ensemble._forest.RandomForestRegressor
+mlflow_version: 3.14.0
+model_id: m-fd86a95e0b9f4506b0acc8226cdf0339
+model_size_bytes: 96846
+model_uuid: m-fd86a95e0b9f4506b0acc8226cdf0339
+prompts: null
+run_id: b2a7776464fc4caca768d5310e924d4d
+utc_time_created: '2026-06-21 16:16:39.889624'

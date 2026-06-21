@@ -1,0 +1,36 @@
+artifact_path: file:C:/Users/tusha/OneDrive/Desktop/New folder/automl-platform/backend/mlruns/13/models/m-3ec5f97719524b4eb63eea9ba99e4602/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.2
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.8.0
+    skops_trusted_types:
+    - xgboost.core.Booster
+    - xgboost.sklearn.XGBClassifier
+    - xgboost.sklearn.XGBRegressor
+    - sklearn.ensemble._forest.RandomForestClassifier
+    - sklearn.ensemble._forest.RandomForestRegressor
+    - lightgbm.sklearn.LGBMClassifier
+    - lightgbm.sklearn.LGBMRegressor
+    - sklearn.ensemble._forest.ExtraTreesClassifier
+    - sklearn.ensemble._forest.ExtraTreesRegressor
+    - collections.OrderedDict
+    - lightgbm.basic.Booster
+    - sklearn.ensemble._gb.GradientBoostingClassifier
+    - sklearn.ensemble._gb.GradientBoostingRegressor
+mlflow_version: 3.14.0
+model_id: m-3ec5f97719524b4eb63eea9ba99e4602
+model_size_bytes: 948656
+model_uuid: m-3ec5f97719524b4eb63eea9ba99e4602
+prompts: null
+run_id: 4b3d011539d04924b6bfb63ec0da35c0
+utc_time_created: '2026-06-21 18:13:37.092323'
