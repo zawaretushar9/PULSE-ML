@@ -6,7 +6,11 @@ class Settings(BaseSettings):
     API_V1_STR: str = "/api"
     
     # CORS settings
-    ALLOWED_ORIGINS: list = ["http://localhost:5173", "https://automl-platform-frontend.vercel.app"]
+    ALLOWED_ORIGINS: list = [
+        "http://localhost:5173", 
+        "https://automl-platform-frontend.vercel.app",
+        "https://tuviza-pulseml.vercel.app"
+    ]
     
     # MLflow settings
     MLFLOW_TRACKING_URI: str = "sqlite:///mlflow.db"
